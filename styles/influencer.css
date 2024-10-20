@@ -1,0 +1,38 @@
+
+body{
+   max-width: 1440px;
+   margin: 0 auto; 
+   font-family: "Poppins", sans-serif;
+
+}
+.header{
+    width: 90%;
+}
+.navbar{
+    justify-content: space-between;
+    
+}
+.nav-title{
+    font-size: 1.6rem;
+}
+.navbar, ul{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+.navbar, ul, a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.navbar, ul, li{
+    list-style: none;
+}
+.search-icon{
+    width: 24px;
+    margin-top: 10px;
+}
+.tolly{
+    width: 36px;
+    margin-top: 10px;
+}
