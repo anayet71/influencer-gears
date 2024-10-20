@@ -3,11 +3,15 @@ body{
    max-width: 1440px;
    margin: 0 auto; 
    font-family: "Poppins", sans-serif;
+   /* background-color: rgb(195, 220, 243); */
 
 }
-.header{
+header{
     width: 90%;
+    margin-top: 82px; 
+    border: 2px solid red;  
 }
+/* Navbar start */
 .navbar{
     justify-content: space-between;
     
@@ -35,4 +39,52 @@ body{
 .tolly{
     width: 36px;
     margin-top: 10px;
+}
+
+
+/* Banner started */
+.banner{
+    display: flex;
+    gap: 133px;
+    align-items:center ;
+    justify-content: center;
+    margin-top: 80px;
+}
+.banner-text{
+    max-width: 582px;
+}
+.banner-title{
+    font-size:3.25rem ;
+    margin-bottom: 0;
+}
+.banner-details{
+    font-weight: 600;
+    margin-top: 16px;
+}
+.banner-btn{
+    background-color: #E02C6D;
+    padding: 0px 28px 0px 24px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.banner-btn img{
+    width: 20px;
+    filter: invert(1);
+}
+.banner-img{
+    background-image: url(../images/Circle\ design.svg);
+}
+/* Sponsor */
+.sponsor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
 }
