@@ -110,6 +110,44 @@ header{
    justify-content: center;
    gap: 30px;
 }
+.cart{
+    box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.1);
+    padding: 17px 14px 0px 14px;
+    border-radius: 5px;
+}
+.cart-title{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.price{
+    font-size: 24px;
+    margin-bottom: 5px ;
+    margin-top: 0px;
+}
+.cart-details, .rating-num{
+    font-size: 14px;
+    font-weight: bold;
+    color: #787885;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    
+}
+.rating {
+    display: inline-block;
+    font-size: 16px; /* Adjust size of stars */
+    color: #FB8200; /* Gold color for filled stars */
+    margin-bottom: 10px;
+    margin-top: 0;
+
+}
+.star.filled {
+    color: #FB8200; /* Color for filled stars */
+}
+.rating-num{
+    padding-left: 10px;
+}
 
 
 /* Responsive for Tablet */
